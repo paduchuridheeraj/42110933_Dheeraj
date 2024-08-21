@@ -80,7 +80,7 @@
 <body>
   <div class="bg_im">
   <h1>Player Details</h1>
-  <form method="post" action="db.php" method="post">
+  <form method="post" action="/cric/db.php" method="post">
     <label for="player_name">Player Name:</label>
     <input type="text" id="player_name" name="player_name"><br><br>
     <label for="batting_style">Batting Style:</label>
@@ -106,7 +106,7 @@
     <input type="submit" name="submit" value="Submit">
   </form>
   <?php
-  include ("db.php");
+  include ("/cric/db.php");
   ?>
   </div>
   
